@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Red Scare Archives</title>
+    <link>https://cremasterjedi.github.io/Red-Scare-Archives/</link>
+    <atom:link href="https://cremasterjedi.github.io/Red-Scare-Archives/RSArchivesfeed.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <description>Red Scare Archives</description>
+
+    <!-- Prevent public podcast directories from indexing the feed -->
+    <itunes:block>yes</itunes:block>
+
+    <!-- Channel-level metadata & fallback cover art (min 1400x1400, max 3000x3000 JPG/PNG) -->
+    <itunes:author>Cremasterjedi</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:image href="https://cremasterjedi.github.io/Red-Scare-Archives/art/cover.jpg" />
+    <image>
+      <url>https://cremasterjedi.github.io/Red-Scare-Archives/art/cover.jpg</url>
+      <title>Red Scare Archives</title>
+      <link>https://cremasterjedi.github.io/Red-Scare-Archives/</link>
+    </image>
+
+    <!-- ==================== EPISODE 1 ==================== -->
+    <item>
+      <title>Doctors Orders w Doctor Drew</title>
+      <description>Dr. Drew Pinsky stops by the pod to discuss addiction, trauma, narcissism and BPD, envy vs jealousy, codependence, victimhood, why celebs are so troubled, and more. Plus, the ladies take Dr. Drew's narcissism test.</description>
+      <guid isPermaLink="false">1</guid>
+      <pubDate>Tue, 04 Oct 2022 08:00:00 GMT</pubDate>
+
+      <!-- Per-episode artwork (overrides channel cover in podcast players) -->
+      <itunes:image href="https://cremasterjedi.github.io/Red-Scare-Archives/art/cover.jpg" />
+
+      <!-- Episode metadata -->
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>01:40:59</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+
+      <!-- Audio file hosted on GitHub Releases (length = exact file size in bytes) -->
+      <enclosure url="https://github.com/cremasterjedi/Red-Scare-Archives/releases/download/v1.0/Doctors_Orders.mp3"
+                 length="96999552"
+                 type="audio/mpeg" />
+    </item>
+
+    <!-- ==================== EPISODE 2 ==================== -->
+    <item>
+      <title>Make America Great AgAnn w Ann Coulter</title>
+      <description>Legendary political pundit and new Substack producer Ann Coulter drops by the pod to talk about the case against Trump, the future of the GOP, the immigration debate, and why she's a Deadhead.</description>
+      <guid isPermaLink="false">2</guid>
+      <pubDate>Sat, 03 Dec 2022 08:00:00 GMT</pubDate>
+
+      <!-- Per-episode artwork -->
+      <itunes:image href="https://cremasterjedi.github.io/Red-Scare-Archives/art/cover.jpg" />
+
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>01:03:44</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+
+      <enclosure url="https://github.com/cremasterjedi/Red-Scare-Archives/releases/download/v1.0/Make_America_Great_AgAnn.mp3"
+                 length="61243520"
+                 type="audio/mpeg" />
+    </item>
+
+  </channel>
+</rss>
