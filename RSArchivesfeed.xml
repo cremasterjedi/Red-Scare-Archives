@@ -19,7 +19,7 @@
     <itunes:type>episodic</itunes:type>
     <itunes:image href="https://cremasterjedi.github.io/Red-Scare-Archives/art/cover.jpg" />
     <image>
-      <url>https://cremasterjedi.github.io/Red-Scare-Archives/art/cover.jpg</url>
+      <url>https://cremasterjedi.github.io/Red-Scare-Archives/cover.jpg</url>
       <title>Red Scare Archives</title>
       <link>https://cremasterjedi.github.io/Red-Scare-Archives/</link>
     </image>
@@ -32,7 +32,7 @@
       <pubDate>Tue, 04 Oct 2022 08:00:00 GMT</pubDate>
 
       <!-- Per-episode artwork (overrides channel cover in podcast players) -->
-      <itunes:image href="https://cremasterjedi.github.io/Red-Scare-Archives/art/cover.jpg" />
+      <itunes:image href="https://cremasterjedi.github.io/Red-Scare-Archives/cover.jpg" />
 
       <!-- Episode metadata -->
       <itunes:episode>1</itunes:episode>
@@ -54,7 +54,7 @@
       <pubDate>Sat, 03 Dec 2022 08:00:00 GMT</pubDate>
 
       <!-- Per-episode artwork -->
-      <itunes:image href="https://cremasterjedi.github.io/Red-Scare-Archives/art/cover.jpg" />
+      <itunes:image href="https://cremasterjedi.github.io/Red-Scare-Archives/cover.jpg" />
 
       <itunes:episode>2</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
